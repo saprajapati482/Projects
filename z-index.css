@@ -1,0 +1,24 @@
+/* body{
+
+}
+#csk{
+     background-color: yellow;
+     position: absolute;
+     z-index: 2;
+}
+#mi{
+     background-color:blue;
+     position: absolute;
+     z-index: 1;
+     top: 0;
+}
+#rcb{
+     background-color: red;
+     position: relative;
+     z-index: 5;
+     top:0;
+} */
+
+#csk{
+     background-color: yellow;
+}

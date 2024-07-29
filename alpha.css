@@ -1,0 +1,445 @@
+/* when there will be more changes then go for rem unit */
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: "Source Sans 3", sans-serif;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #f5f5f5;
+}
+nav
+{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.2rem 1rem;
+}
+
+#left>h1
+{
+    color:white;
+    font-size:  1rem ;
+    margin: 0;
+}
+#left>h1>span
+{
+    font-weight: 100;
+}
+#right>#content
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+#content>li>a
+{
+    color: white;
+    text-decoration: none;
+    padding:  0.4rem 1rem;
+    display: block;
+}
+#content>li>a>button
+{
+   font-size: 1rem;
+   padding:0.2rem 1rem ;
+   border: 2px solid rgb(230, 227, 227);
+   border-radius: 5px; 
+   background-color: white;
+   background-color: transparent;
+   color:white;
+
+}
+/* ------------------------------------------DropDown--------------------------------- */
+/* menu is id of ul */
+#menu{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    /* for dropdown box backgroup color  */
+    background-color: white;
+    width: 180%;
+    top: 100%;
+    right:0%;
+    display: none;
+    border: 4px solid red;
+}
+#dropdown:hover #menu{
+    display: block;
+
+}
+/* under ul >li  */
+#menu>li>a{
+    color:gray;
+    text-decoration: none;
+    display: block;
+    border-bottom: 2px solid rgb(212, 211, 211);
+    padding: 0.5rem;
+}
+#menu>li>a:hover{
+    background-color: rgba(252, 91, 62, 0.808);
+    color:white;
+}
+#dropdown{
+    position:relative;
+   
+}
+
+
+/* ----------------- alpha ------------------ text-align for center*/
+
+#alpha
+{
+    text-align: center;
+    margin-top: 7rem;
+}
+
+#alpha>h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+#alpha>p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+/* button which is present inside alpha section */
+#alpha>button{
+    width: 12%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+    margin: 1rem;
+}
+
+#alpha>#learn{
+background-color: transparent;
+border: 2px solid rgb(83, 80, 80);
+color: white;
+}
+
+#mobile{
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 1rem;
+    margin-top:10rem ;
+
+}
+
+#mobile>h2{
+    color: grey;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+#mobile>p{
+    color: grey;
+    font-weight: 300;
+    font-size: 1.2 rem;
+    border-top: 2px solid grey;
+    width: 60%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   
+}
+
+#mobile>img{
+    width: 100%;
+}
+
+#signup
+{
+   text-align: center;
+   background-color: rgba(233, 150, 122, 0.651);
+   margin-bottom: 7rem;
+   padding-bottom: 3rem;
+}
+
+#signup>h1
+{
+    padding-top: 2rem;
+    color: white;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+#signup>p
+{
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+ 
+}
+
+#signup>input{
+    width:18%;
+    height: 2.5rem;
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.15);
+    border: none;
+    margin-right: 1.5rem;
+}
+
+::placeholder
+{
+    color: white;
+    padding-left: 0.5rem;
+}
+
+#signup>button
+{
+    width: 10%;
+    height: 2.5rem;
+    color:  rgba(238, 142, 52, 0.651);
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: none;
+}
+
+/* -------------icon----------- */
+#icon
+{
+    background-color:white;
+    width:70%;
+    margin:  2rem auto auto auto;
+    border-radius: 5px;
+    padding: 2rem;
+    box-sizing: border-box;
+    
+
+}
+#icon>div
+{
+    /* background-color: blue; */
+    width:48%;
+    display:inline-block;
+    text-align: center;
+    
+
+}
+.fa-bolt-lightning{
+    background-color: #e89980;
+    color:white;
+    border-radius: 100%;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+
+}
+.fa-chart-area{
+    background-color: #7fcdb8;
+    color:white;
+    border-radius: 100%;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+
+}
+.fa-cloud{
+    background-color: #90b0ba;
+    color:white;
+    border-radius: 100%;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+
+}
+.fa-lock{
+    background-color: #e5cb95;
+    color:white;
+    border-radius: 100%;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+
+}
+#icon>div>h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#icon>div>p{
+    
+    font-weight: 300;
+}
+#div1
+{
+    border-right: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
+    position: relative;
+    top:2px ;
+    left:3.5px;
+}
+
+#div4
+{
+    border-left: 2px solid #e5e5e5;
+    border-top: 2px solid #e5e5e5;
+}
+#icon>div{
+    padding-top: 2rem;
+}
+/* ----------------cards-------------- */
+#cards{
+    /* background-color: red; */
+    width:70%;
+    margin: 2rem auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+#cards>div{
+    background-color: white;
+    width:48%;
+    text-align: center;
+    padding-bottom: 2rem;
+    border-radius: 5px;
+}
+#cards>div>img{
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#cards>div>h2{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+#cards>div>p{
+    
+    font-weight: 300;
+}
+
+#f>#ft1,#f>#ft2{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#ft1>a>i{
+    
+    color:rgb(173, 170, 170);
+    font-size: 30px;
+}
+
+#box{
+    display: none;
+}
+/* -----------mobile version------------- */
+@media (max-width:600px)
+{
+    body{
+
+        background-size: 190%;
+        background-position-x: center;
+    }
+    #box{
+        display: inline-block;
+        color: white;
+        background-color: rgb(213,204,204);
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        margin-top: 0.5rem ;
+        margin-left: 0.5rem;
+    }
+    nav{
+        display: none;
+    }
+    #alpha
+{
+    width: 80%;
+    margin: auto;
+    /* text-align: center; */
+    margin-top: 0rem;
+}
+#alpha>h2{
+    
+    font-size: 2rem;
+    
+}
+
+#alpha>p{
+   
+    font-size: 1.1rem;
+    
+}
+#alpha>button{
+    width: 100%;
+   margin-bottom: 1rem;
+   
+}
+#mobile{
+    
+    
+    width: 100%;
+    border-radius: 0px;
+    padding-top: 1rem;
+    margin-top:0rem ;
+
+}
+#mobile>h2{
+    
+    font-size: 1.5rem;
+}
+
+#mobile>p{
+    
+    width: 90%;
+   
+}
+br{
+    display: none;
+}
+#icon
+{
+    
+    width:100%;
+    margin:  1rem auto auto auto;
+    
+
+}
+#icon > div
+{
+    
+    width:100%;
+    border-bottom: 2px solid #e5e5e5;
+    
+    
+
+}
+#div1
+{
+    border-right: none;
+    border-bottom: none;
+    position: relative;
+    top:0px ;
+    left:0px;
+}
+
+#div4
+{
+    border-left: none;
+    border-top: none;
+}
+#cards{
+  
+    width:100%;
+    margin: 1rem auto auto auto;
+    display: block;
+    
+}
+#cards>div{
+    
+    width:100%;
+    margin-top: 1rem;
+}
+}
