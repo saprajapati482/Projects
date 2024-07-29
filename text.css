@@ -1,0 +1,40 @@
+#mi
+{
+     color:hotpink;
+     text-align: center;
+     font-size: 80px;
+     text-transform: capitalize;
+     letter-spacing: 20px;
+     word-spacing: 50px;
+     text-shadow: 44px 2px 0px red;
+     transition:5s;
+
+}
+#csk
+{
+     color:yellow;
+     text-align: center;
+     font-size: 80px;
+     text-transform: uppercase;
+     letter-spacing: 20px;
+     word-spacing: 50px;
+     font-family: "Nunito Sans", sans-serif;
+     font-weight: 900;
+     text-shadow: 44px 2px 0px red;
+     transition: 5s;
+
+}
+/* p{
+     line-height: 50px;
+     word-spacing: 50px;
+} */
+
+#mi:hover{
+     color:green;
+     font-size: 50px;
+}
+#csk:hover{
+     color:Blue;
+     font-size: 50px;
+
+}

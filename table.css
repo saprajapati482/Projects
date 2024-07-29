@@ -1,0 +1,14 @@
+table
+{
+     border:2px solid black;   /* thickness type color */
+     border-collapse: collapse;
+}
+th{
+     border:2px solid black;
+}
+td{
+     border:2px solid black;
+}
+.nq{
+     color:red;
+}

@@ -1,0 +1,76 @@
+/* ----------simple Selectors--------- */
+/* h1{
+     color:yellow;
+}
+h2,h4{
+     color:aqua;
+}
+.sapna{
+     color:red;
+}
+.msd{
+     size: large;
+}
+.ms7{
+     background-color: aquamarine;
+}
+#hp{
+     color:blue;
+}
+*{
+     color:orange;
+} */
+
+/* h1{
+     color:blue;
+}
+h1,h4{
+     color:orange;
+}
+.sapna{
+     color:green;
+}
+#dhoni{
+     color:pink;
+}
+*{
+     color:chocolate;
+} */
+/* ------child selecor--- */
+/* #container>h1{
+     color:yellow;
+
+} */
+
+/* #container h1{
+     color:yellow;
+}
+#container >h1+ p{
+     color:blue;
+}
+#container h1+ p{
+     color:rgb(142, 142, 207);
+}
+h1+p{
+     color:red;
+}
+#cont h1~p{
+     color:green;
+} */
+/* -------pseduo class selector----- */
+/* li:first-child
+{
+     color:red;
+}
+li:last-child{
+     color:blue;
+}
+li:nth-child(2) {
+     color:green;
+} */
+li:nth-child(2n){
+     color:orange;
+}
+#names1 > li:nth-child(1){
+     color:blue;
+}
