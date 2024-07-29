@@ -1,0 +1,13 @@
+[type="text"]
+{
+     color:red;
+     background-color: green;
+}
+[type="password"]
+{
+     color:blue;
+}
+button[type="submit"]
+{
+
+}

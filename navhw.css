@@ -1,0 +1,9 @@
+#nav{
+     display :flex;
+
+}
+#nav1{
+     display:flex;
+     justify-content: space-between;
+     text-decoration: none;
+}

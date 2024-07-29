@@ -1,0 +1,59 @@
+/* #img1{
+     position: fixed;
+     top:0px;
+     left:0px;
+}
+/* #img2{
+     position:absolute;
+     top:0px;
+     left:0px;
+} */
+/* #img2{
+     position:fixed;
+     top:0px;
+     left:0px;
+}  */
+
+body
+{
+     margin:0;
+     padding: 0;
+     background-image: linear-gradient(to bottom, orange,white,green);
+     height:100vh;
+}
+nav
+{
+     background-color: hotpink;
+}
+#cont{
+     display:flex;
+     list-style-type: none;
+     margin:0;
+     padding: 0;
+
+}
+a{
+     text-decoration: none;
+     color:white;
+     padding: 20px;
+     display: block;
+}
+a:hover
+{
+     background-color: blue;
+
+}
+#menu{
+     list-style-type: none;
+     padding:0;
+     margin:0;
+     background-color: lightgreen;
+     position: absolute;
+     display: none;
+     
+
+}
+#drop:hover #menu{
+     display: block;
+
+}
