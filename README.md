@@ -1,2 +1,2 @@
 # Projects
-This code is for html and css
+This code is for html,css and javascropt
